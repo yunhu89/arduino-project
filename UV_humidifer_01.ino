@@ -8,7 +8,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-byte customChar0[0] = {
+byte customChar0[8] = {
   B00100,
   B01010,
   B01010,
@@ -19,7 +19,7 @@ byte customChar0[0] = {
   B01110
 };                  //온도계 모양
 
-byte customChar1[1] = {
+byte customChar1[8] = {
   B00100,
   B01110,
   B01110,
